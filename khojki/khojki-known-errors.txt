@@ -1,0 +1,6 @@
+1. Sequences of <shadda, vowel sign e> and <shadda, vowel sign ai> result in glyph clashes. Need to produce new glyphs for ligatures of these signs.
+
+2. Sequences of <sa, shadda> followed by <shadda>, <nukta>, etc. result in glyph clashes. This is due to precomposed glyphs for <sa, shadda> and related vowel ligatures. Need to define rules in the GDL for handling these sequences.
+
+3. Various glyphs are stored in the PUA. These need to be detached from their current code points.
+
